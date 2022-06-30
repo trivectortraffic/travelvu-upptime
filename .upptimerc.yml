@@ -2,10 +2,24 @@ owner: trivectortraffic
 repo: travelvu-upptime
 
 sites:
+  - name: TravelVu Web
+    url: https://www.travelvu.app/
+  - name: TravelVu Admin
+    url: https://rvu.trivector.se/site/login
+  - name: TravelViewer UI
+    url: https://www.travelviewer.app
   - name: TravelVu API
-    url: https://rvu.trivector.se
+    url: https://rvu.trivector.se/yii-server/api/get-modes
   - name: TravelViewer API
-    url: https://api.travelviewer.app
+    url: https://api.travelviewer.app/health
+  - name: TravelVu Registry
+    url: https://registry.travelvu.io/
+    expectedStatusCodes:
+      - 401
+  - name: TravelVu ACME
+    url: https://acme.travelvu.io/health
+  - name: TravelVu Public Dev
+    url: https://whoami.vs.travelvu.dev/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
