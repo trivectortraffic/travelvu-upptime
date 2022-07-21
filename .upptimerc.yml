@@ -2,8 +2,8 @@ owner: trivectortraffic
 repo: travelvu-upptime
 
 sites:
-  - name: TravelVu Web
-    url: https://www.travelvu.app/
+  #- name: TravelVu Web
+  #  url: https://www.travelvu.app/
   - name: TravelVu Admin
     url: https://rvu.trivector.se/site/login
   - name: TravelViewer UI
